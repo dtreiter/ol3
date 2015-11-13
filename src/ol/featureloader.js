@@ -50,6 +50,7 @@ ol.FeatureUrlFunction;
  *     Function called with the loaded features. Called with the vector
  *     source as `this`.
  * @return {ol.FeatureLoader} The feature loader.
+ * @api
  */
 ol.featureloader.loadFeaturesXhr = function(url, format, success) {
   return (
